@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,500;1,400&family=Lexend+Deca&family=Nunito:wght@200&family=Poppins:wght@100&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 100vh;
+    background-color: white;
+}
+
+header{
+    background-image: url('../bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ .logo-svg{
+    margin-top: 10rem;
+    margin-left: 9rem; 
+} 
+
+h1{
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: -7rem;
+    font-size: 35px;
+    color:hsl(210, 10%, 33%) ;
+}
+
+p{
+    margin: 1rem;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:hsl(201, 11%, 66%) ;
+}
+button{
+    height: 4rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    width: 20rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color:hsl(171, 66%, 44%) ;
+    color: white;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: -2.5rem;
+
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-shadow:0 0 20px;
+}
+
+h2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 10rem ;
+    font-size: 35px;
+    color:hsl(210, 10%, 33%) ; 
+}
+h3{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 3rem ;
+    font-size: 35px;
+    color:hsl(210, 10%, 33%) ; 
+}
+
+
+.computer{
+    margin-top: 4rem;
+}
+
+.google{
+    margin-top: 6rem;
+}
+
+.logo{
+    width: 3rem;
+}
+
+li{
+    list-style: none;
+    margin-top: 1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.fb{
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+.twit{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.inst{
+    
+    margin-left: 3rem;
+}
+
+footer{
+    background-color: lightgrey;
+    padding: 3rem;
+    margin-top: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+ 
+  @media (max-width:300px){
+    header{
+        background-size: 100%;
+    }
+
+    .logo-svg{
+        align-items: center;
+        justify-content: center;
+        margin-left: 6rem;
+    }
+    button{
+        width: 15rem;
+    }
+}
+
+  @media (max-width:500px){
+    header{
+        background-size: 100%;
+    }
+
+    .logo-svg{
+        align-items: center;
+        justify-content: center;
+        margin-left: 6rem;
+    }
+    button{
+        width: 20rem;
+    }
+}
+
